@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('Build') {
+    stage('Buils') {
       steps {
-        bat 'dotnet build'
+        echo 'Hello!'
       }
     }
 
